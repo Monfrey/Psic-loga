@@ -33,15 +33,16 @@
            /* background-color: red; */
     }
       
-    .menu a:hover{
-        background-color: transparent;
-        color: #19c971;
+    .menu li a:hover{
+        cursor: pointer;
+        color:#ffffff;
+        background: #19c971;
     }
     .menu li{
         font-size: 10px;
         background-color:#19c971;
         border-radius: 20px;
-        height: 30px;
+        height: auto;
         margin: 6px;
     }
   
@@ -212,9 +213,16 @@
         display: flex;
         width: 70px;
         justify-content: center;
+        text-align: center;
         margin-top: 0;
+        width: 95vw;
+        margin-left: 0;
         
     }
+    .comprar-livro:hover{
+        transform: scale(1);
+    }
+
     .comprar-livro a{
         align-items: center;
         text-align: center;
