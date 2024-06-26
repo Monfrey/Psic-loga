@@ -1,0 +1,239 @@
+@media screen and (max-width:600px){
+    header{
+        width: 100vw;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .button{
+        margin-top: 40px;
+        text-align: center;
+        width: 70px;
+        margin-left: 70%;
+    }
+    .logo{
+        display: contents;
+        width: 200px;
+    }
+    .psi{
+        text-align: center;
+        /* background-color: aqua; */
+        margin: 0;
+        width: 100vw;
+    }
+    ul.menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 50px;
+        margin-bottom: -20px;
+        text-align: center;
+        margin-left: 15px ;
+           /* background-color: red; */
+    }
+      
+    .menu a:hover{
+        background-color: transparent;
+        color: #19c971;
+    }
+    .menu li{
+        font-size: 10px;
+        background-color:#19c971;
+        border-radius: 20px;
+        height: 30px;
+        margin: 6px;
+    }
+  
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+    .conteudo img{
+        width: 50%;
+        margin-left: 20%;
+        margin-top: 10px;
+    }
+    .conteudo h2{
+        margin-left:10px ;
+    }
+    .conteudo h1{
+        margin-left:10px ;
+        font-size: 25px;
+    }
+    .descricao{
+        width: 95vw;
+        height: 500px;
+        padding: 10px;
+    }
+
+    .idiomas{
+        width: 50vw;
+        /* background-color: #19c971; */
+        margin-top: -100px;
+        margin-left: 10%;
+    }
+    .idiomas p {
+        left: 0px;
+    }
+    .idiomas img{
+        width: 40px;
+        height: 30px;
+        left: 0;
+        text-align: center;
+    }
+    .box-dois{
+        width: 100vw;
+        height: 1010px;
+        text-align: center;
+        display: flex;
+ 
+      
+    }
+    .academico{
+        display: flex;
+        flex-direction: column;
+        height: 960px;
+        justify-content: center;
+        margin-top: 40px;
+        width: 95vw;
+        text-align: center;
+ 
+    }
+    .academico p{
+        display: flex;
+
+        width: 100%;
+ 
+    }
+    .academico h2{
+        display: flex;
+        width: 100%;
+   
+      }
+      .academico h3{
+        display: flex;
+        width: 100%;
+    
+    }
+    .formacao{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 95vw;
+        height: auto;
+        justify-content: space-around;
+  
+     }
+     .formacao h2{
+        display: flex;
+        width: 100%;
+        text-align: left;
+      }
+
+    .servicos{
+    
+        height: auto;        
+    }
+    .lista-servicos{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .lista-servicos ul{
+        width: 100vw;
+     
+    }
+    .lista-servicos ul li{
+        width: 100vw;
+        padding: 0 10px 0 10px;
+   
+    }
+
+    .eventos{
+        width: 100vw;
+        height: auto;
+    }
+
+    .lista-eventos{
+    
+        width: 100vw;
+        height: auto;
+    }
+    .lista-eventos li{
+     
+        width: 95vw;
+        height: auto;
+        padding: 0 10px 0 10px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .capa-livro{
+    
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .capa-livro h2{
+    
+        width: 100vw;
+       }
+
+    .capa-livro p{
+    
+        width: 95vw;
+        padding: 0 10px 0 10px;
+    }
+   
+    .capa-livro{
+        text-align: center;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+     }
+    
+    .descricao-livro{
+        text-align: center;
+        align-items: center;
+        margin: 0;
+    }
+    .descricao-livro p{
+        text-align: justify;
+        font-size: 16px;
+        height: auto;
+    }
+    
+    .comprar-livro{
+        display: flex;
+        width: 70px;
+        justify-content: center;
+        margin-top: 0;
+        
+    }
+    .comprar-livro a{
+        align-items: center;
+        text-align: center;
+        background:#19c971;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    footer{
+    
+        width: 100vw;
+    }
+    footer p{
+    
+        text-align: center;
+        height: auto;
+        width: 95vw;
+    }
+
+    
+}
