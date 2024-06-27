@@ -1,12 +1,13 @@
 html{
     scroll-behavior: smooth;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    background-color: #19c971;
 }
 
 body{
     background-color: #e7e5e7;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     max-width: 1900px;
     max-height: max-content;
@@ -33,6 +34,11 @@ body{
 
 }
 
+.logo .psi a{
+    text-decoration: none;
+    color: #19c971;
+}
+
 .menu{
     display: flex;
     flex-direction: row;
@@ -48,22 +54,6 @@ body{
     align-items: center;
 }
 
-.idiomas{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 150px;
-}
-.idiomas p {
-    position: relative;
-    left: 450px;
-}
-.idiomas img{
-    width: 40px;
-    height: 30px;
-    position: relative;
-    left: 300%;
-}
 
 .menu li{
     height: 10px;
@@ -71,7 +61,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 100%;
 
 }
 
@@ -114,6 +104,7 @@ body{
     max-height: 600px;
     margin-top: 3%;
 }
+
 
 .conteudo{
     display: flex;
@@ -160,7 +151,7 @@ body{
 .box-dois{
     background-color: #e7e5e7;
     width: 100%;
-    height: 500px;
+    height: 800px;
     justify-content: center;
 
 }
@@ -169,22 +160,18 @@ body{
     max-width: 1900px;
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* background-color: #700808; */
     display: flex;
     position: absolute;
     max-width: 1900px;
     margin: 0;
-    padding-top: 20px;
+    margin-top: 50px;
 }
 
 .academico{
     display: flex;
-    flex-direction: row;
     width: 100%;
     max-width: 1900px;
-    height: 500px;
-
-    /* background-color: #532525; */
+    height: 800px;
     justify-content: center;
 }
 
@@ -192,11 +179,11 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 400px;
-    height: 530px;
+    height: 330px;
     margin:0;
-    overflow: hidden;
-    /* background-color: #973838; */
+    margin-top: 250px;
 }
 
 .academico h2{
@@ -231,8 +218,9 @@ body{
     flex-direction: row;
     width: 100%;
     max-width: 1900px;
-    height: 400px;
+    height: 800px;
     background-color: #e7e5e7;
+    margin-top: 50px;
 
 }
 
@@ -240,6 +228,7 @@ body{
     text-align: center;
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 80px;
 }
 
 .servicos ul{
@@ -260,6 +249,7 @@ body{
     padding: 2px 0 20px 0;
     overflow: hidden;
     text-align: left;
+    margin-top: 10px;
 }
 
 .eventos{
@@ -267,6 +257,7 @@ body{
     background-color: #e7e5e7;
     height: 430px;
     text-align: center;
+    height: 800px
 ;
 }
 .eventos h2{
@@ -276,6 +267,7 @@ body{
     padding-top: 30px;
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 80px;
 }
 
 .eventos ul li{
@@ -288,6 +280,7 @@ body{
     overflow: hidden;
     text-align: left;
     padding-top: 30px;
+    margin-top: 80px;
     /* background-color: aquamarine; */
 
 }
@@ -349,11 +342,15 @@ footer p:nth-child(2){
 
 .capa-livro{
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 800px;
+}
+.capa-livro img{
+    width: 400px;
+    height: 550px;
+    margin-top: 100px;
 }
 
 .descricao-livro{
@@ -361,7 +358,7 @@ footer p:nth-child(2){
     text-align: center;
     margin-left: 30px;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 90px;
    
     
 }
@@ -385,18 +382,13 @@ footer p:nth-child(2){
     width: 200px;
     margin-left: 30%;
 }
-
-.comprar-livro a{
-    text-decoration: none;
-    color: black;
+.comprar-livro:hover{
+    transform: scale(1.2);
 }
-
-.comprar-livro a:hover{
+.comprar-livro a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-.comprar-livro:hover{
-    transform: scale(1.2);
-    color: #ffffff;
-}
+
+
 
