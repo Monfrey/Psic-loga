@@ -1,20 +1,27 @@
 @media screen and (max-width:600px){
-    header{
+    body{
+        background-color: #ffffff;
         width: 100vw;
+        height: auto;
     }
     .box{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
     }
     .button{
         margin-top: 40px;
+        margin-bottom: 10px;
         text-align: center;
         width: 70px;
-        margin-left: 70%;
+        margin-left:40% ;
     }
     .logo{
         display: contents;
-        width: 200px;
+        width: 100%;
+        background-color:#19c971;   
     }
     .psi{
         text-align: center;
@@ -29,8 +36,7 @@
         height: 50px;
         margin-bottom: -20px;
         text-align: center;
-        margin-left: 15px ;
-           /* background-color: red; */
+   
     }
       
     .menu li a:hover{
@@ -44,6 +50,12 @@
         border-radius: 20px;
         height: auto;
         margin: 6px;
+    }
+
+    .menu{
+        width: 100vw;
+        justify-content: center;
+        text-align: center;
     }
   
     .conteudo{
@@ -68,71 +80,59 @@
         padding: 10px;
     }
 
-    .idiomas{
-        width: 50vw;
-        /* background-color: #19c971; */
-        margin-top: -100px;
-        margin-left: 10%;
-    }
-    .idiomas p {
-        left: 0px;
-    }
-    .idiomas img{
-        width: 40px;
-        height: 30px;
-        left: 0;
-        text-align: center;
-    }
+   
     .box-dois{
         width: 100vw;
-        height: 1010px;
+        height: auto;
         text-align: center;
         display: flex;
- 
-      
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+       
     }
     .academico{
         display: flex;
         flex-direction: column;
         height: 960px;
         justify-content: center;
-        margin-top: 40px;
         width: 95vw;
         text-align: center;
- 
+        margin-top: 80px;
     }
     .academico p{
         display: flex;
-
-        width: 100%;
+        height: auto;
  
     }
     .academico h2{
         display: flex;
-        width: 100%;
-   
-      }
-      .academico h3{
+        height: auto;
+    }
+
+    .academico h3{
         display: flex;
-        width: 100%;
+        height: auto;
     
     }
     .formacao{
-
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 95vw;
         height: auto;
-        justify-content: space-around;
-  
-     }
-     .formacao h2{
-        display: flex;
-        width: 100%;
-        text-align: left;
-      }
+        margin: 0;
 
+    }
+     .formacao h2{
+        text-align: justify;
+        justify-content: center;
+      }
+      
+    .titulo-formacao{
+        display: flex;
+        top: 130px;
+    }
     .servicos{
     
         height: auto;        
@@ -172,30 +172,25 @@
         margin: 0;
     }
 
-    .capa-livro{
-    
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-
     .capa-livro h2{
-    
-        width: 100vw;
+        width: 95vw;
        }
 
     .capa-livro p{
-    
         width: 95vw;
         padding: 0 10px 0 10px;
     }
    
     .capa-livro{
         text-align: center;
-        margin-top: 30px;
         display: flex;
         flex-direction: column;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        background-color: #ffffff;
+              
      }
     
     .descricao-livro{
@@ -211,13 +206,12 @@
     
     .comprar-livro{
         display: flex;
-        width: 70px;
+        width: 95vw;
         justify-content: center;
         text-align: center;
         margin-top: 0;
         width: 95vw;
-        margin-left: 0;
-        
+        margin: 0;        
     }
     .comprar-livro:hover{
         transform: scale(1);
@@ -231,6 +225,11 @@
         text-decoration: none;
         font-size: 20px;
     }
+
+    .comprar-livro img{
+        display: flex;
+        width: auto;
+    }
     
     footer{
     
@@ -240,7 +239,7 @@
     
         text-align: center;
         height: auto;
-        width: 95vw;
+        width: 100vw;
     }
 
     
